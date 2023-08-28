@@ -1,0 +1,38 @@
+.container__content {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #FFF;
+    padding: 15px;
+
+    .content__cover > img {
+        min-height: 200px;
+
+        border: 1px solid #FFF;
+        border-radius: 7px;
+
+    }
+
+    .content__description {
+        margin-top: 15px;
+
+        p {
+            color: #c3c3c3;
+        }
+
+    }
+    
+    .content_back > a {
+        background-color: #ff0000;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    
+    
+}
