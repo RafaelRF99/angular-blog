@@ -7,16 +7,24 @@
     align-items: center;
     justify-content: flex-start;
 
-    border: 1px solid #FFF;
     padding: 2rem;
     margin: 10px;
 
-    .big_card__title {
+    .big_card__title > a {
         font-size: 20px;
     }
 
     .big_card__description {
+        margin-top: 20px;
+    }
+
+    .big_card__description > p > a{
         color: #8f8f8f;
+    }
+
+    .big_card__photo > img {
+        width: 100%;
+        min-width: 400px;
     }
 
 }
